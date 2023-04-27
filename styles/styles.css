@@ -5,8 +5,9 @@ nav{
 
 nav a {
     color: white;
-    padding: 20px;
     display: block;
+    padding: 20px;
+    
 }
 
 h1{
@@ -18,11 +19,32 @@ img{
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray
+    box-shadow: 0 0 30px gray;
 }
 
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
+
+
+aside{
+    margin: 1em;
+    border: 1em solid rgba(0,0,0,0.2); /* 1️⃣ */
+    padding: lem;
+    background-color: #eee ;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
